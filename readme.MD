@@ -17,7 +17,7 @@ urllib3==2.4.0
 
 Create a Python virtual environment: `python -m venv venv`
 
-Activate the virtual environment: `./venv/Scripts/activate`
+Activate the virtual environment: `.\venv\Scripts\activate`
 
 Install the dependencies using `pip install -r requirements.txt`
 
