@@ -18,6 +18,6 @@ headers = {"header-api-key": API_KEY, "Content-Type": "application/json"}
 
 response = requests.request("POST", url, headers=headers, data=payload).json()
 
-for response in response["result"]:
-    for address in response["address_details"]:
-        print(address["address"])
+for response in response.get("result", []):
+    for address in response.get("address_details", []):
+        print(address.get("address"))
