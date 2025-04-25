@@ -15,6 +15,8 @@ urllib3==2.4.0
 
 # Installing and executing
 
+Clone down this repo and cd into the directory.
+
 Create a Python virtual environment: `python -m venv venv`
 
 Activate the virtual environment: \
