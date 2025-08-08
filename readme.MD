@@ -1,6 +1,6 @@
 # Prisma Access Get External IP Addresses
 
-This Python script will return the Prisma Access active GP gateway addresses to the screen.
+This Python script will return the Prisma Access active GP gateway addresses to a JSON file.
 
 # Requirements
 
@@ -27,6 +27,6 @@ Install the dependencies using `pip install -r requirements.txt`
 
 Rename .env.example to .env and populate your variables in this file. The .env is included in the .gitignore to ensure it does not accidently get checked into a git repo.
 
-Run: `python get_external_ip.py`
+Run: `python main.py`
 
-The output will be displayed to the screen.
+The output will be written to the directory and file defined in the `OUTPUT_DIR` and `OUTPUT_FILE` variables as JSON.
